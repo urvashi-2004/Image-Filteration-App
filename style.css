@@ -1,0 +1,86 @@
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    padding: 20px 50px 20px 50px;
+    background-color: lavender;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1350px;
+    width: 100%;
+}
+.filteration {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+}
+.card {
+    flex-grow: 1;
+    flex-basis: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.6s;
+    padding: 0px;
+    margin: 30px 30px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    overflow: hidden;
+    background-color:blanchedalmond;
+}  
+img{
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.button {
+  padding: 15px 20px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+.button_all {
+  background-color: #aa0000;
+}
+.button_flower {
+  background-color: #7a9850;
+}
+.button_cat {
+  background-color: #c55a71;
+}
+.button_dog {
+  background-color: #182f0f;
+}
+.button_nature {
+    background-color: #812d7c;
+  }
+.filter-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 20px;
+}
+.anime {
+  transform: scale(0);
+  opacity: 0;
+}
+.hide {
+  display: none;
+}
