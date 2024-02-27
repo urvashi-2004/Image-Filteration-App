@@ -12,6 +12,12 @@ body{
 .container{
     max-width: 1350px;
     width: 100%;
+    text-align: center;
+}
+.container h1{
+  color: black;
+  padding: 15px 0px;
+
 }
 .filteration {
   display: flex;
@@ -45,7 +51,7 @@ img{
     transform: scale(1.1);
 }
 .button {
-  padding: 15px 20px;
+  padding: 6px 15px;
   cursor: pointer;
   color: white;
   text-transform: uppercase;
